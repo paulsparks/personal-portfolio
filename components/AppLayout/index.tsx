@@ -36,7 +36,7 @@ export function AppLayout({ children }: AppLayoutProps) {
     <Layout className="!bg-[#fefae0] h-full">
       <Layout.Sider className="sm:ml-10 lg:ml-40 !bg-transparent">
       <Timeline
-      className="mt-[34rem]"
+      className="mt-[30rem] mr-10"
         items={[
           {
             children: 'Create a services site 2015-09-01',
@@ -58,7 +58,7 @@ export function AppLayout({ children }: AppLayoutProps) {
         <Layout.Header className="!bg-[#fefae0] px-0">
           <Menu className="border-y-0 !bg-[#fefae0]" items={items} activeKey={router.pathname} mode="horizontal" onSelect={({ key }) => onChange(key)} />
         </Layout.Header>
-        <Layout.Content className="p-8">
+        <Layout.Content className="pt-8 w-3/4">
           {children}
         </Layout.Content>
       </div>
