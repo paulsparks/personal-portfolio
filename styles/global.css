@@ -14,3 +14,15 @@ body {
 #__next {
   height: 100%;
 }
+
+.ant-collapse-content-box {
+  background-color: #fefae0;
+}
+
+.ant-collapse-header-text {
+  color: #bc6c25;
+}
+
+.ant-timeline-item-head {
+  border-color: #283618 !important;
+}
