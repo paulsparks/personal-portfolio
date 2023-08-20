@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Button, Collapse, CollapseProps, Timeline } from "antd";
+import { Collapse, CollapseProps, Timeline } from "antd";
 import { Source_Code_Pro } from "next/font/google";
 import Image from "next/image";
 import headshot from "@/assets/images/headshot.png";
