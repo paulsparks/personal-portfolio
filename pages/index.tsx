@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Collapse, CollapseProps, Timeline, Typography } from "antd";
+import { Button, Collapse, CollapseProps, Timeline } from "antd";
 import { Source_Code_Pro } from "next/font/google";
 import Image from "next/image";
 import headshot from "@/assets/images/headshot.png";
@@ -8,6 +8,7 @@ import resourceMap2 from "@/assets/images/ss2.png";
 import resourceMap3 from "@/assets/images/ss3.png";
 import lhsChat1 from "@/assets/images/lhschat1.png";
 import lhsChat2 from "@/assets/images/lhschat2.png";
+import keyboard from "@/assets/images/keyboard.jpg";
 
 
 
@@ -47,6 +48,14 @@ const HomePage: NextPage = () => {
       key: "2",
       label: "Image 2",
       children: <Image className={itemStyles}  width={1914} height={924} alt="project 1 image" src={lhsChat1} />,
+    },
+  ];
+
+  const keyboardDropdown: CollapseProps["items"] = [
+    {
+      key: "1",
+      label: "Image 1",
+      children: <Image className={itemStyles + " mb-10"}  width={1061} height={402} alt="keyboard image" src={keyboard} />,
     },
   ];
 
@@ -106,14 +115,41 @@ const HomePage: NextPage = () => {
             {
               children: <>
                 <h1 className={sourceCodePro.className + " text-[#283618] text-3xl mb-10"}>February 2022 | 17 Years Old</h1>
-                <h2 className={sourceCodeProBold.className + " text-xl mt-10"}>High School Website Vulnerability Report</h2>
+                <h2 className={sourceCodeProBold.className + " text-xl"}>Unity 3D</h2>
                 <p className={sourceCodePro.className + " mt-4 text-sm mb-10"}>
-                  Around the same time that I created LHS Live Chat, I had an interest in cyber security and penetration testing.
-                  I decided to go to my High School&apos;s website and attempt to find a vulnerability.
-                  After some time, I discovered a SQL injection vulnerability on an admin login page. I wrote a Python script to
-                  execute a timing-based blind SQL injection, which eventually uncovered the contents of all of their database tables.
-                  In this database, there were the password hashes to the admin logins. I wrote a report about how the vulnerability works
-                  and how to fix it, then had my IT teacher email it to the relevant departments at my school.
+                  Over the course of a few weeks, I completed an interactive online Unity 3D course. Throughout this course, there were many
+                  meaningful and in-depth lectures ranging from using the Unity scene view, to writing scripts in C# MonoBehaviour classes,
+                  and even trigonometry concepts used in game development. At the end, I made a fully functional game using all the
+                  concepts learned throughout the course and from my own personal research.
+                </p>
+              </>,
+              className: timelineChildrenStyles,
+            },
+            {
+              children: <>
+                <h1 className={sourceCodePro.className + " text-[#283618] text-3xl mb-10"}>December 2021 | 17 Years Old</h1>
+                <h2 className={sourceCodeProBold.className + " text-xl"}>Built Custom Keyboard</h2>
+                <p className={sourceCodePro.className + " mt-4 text-sm"}>
+                  Build a custom 60% sized keyboard, which involved soldering, research, assembling, part matching, etc.
+                </p>
+                <Collapse accordion className="mt-5 text-lg mb-10" items={keyboardDropdown} />
+              </>,
+              className: timelineChildrenStyles,
+            },
+            {
+              children: <>
+                <h1 className={sourceCodePro.className + " text-[#283618] text-3xl mb-10"}>Before 2021 | 16 or Less Years Old</h1>
+                <h2 className={sourceCodeProBold.className + " text-xl"}>Video Game Mods</h2>
+                <p className={sourceCodePro.className + " mt-4 text-sm"}>
+                  During my young teenage years, I made a mod for Minecraft, a mod and multiple maps for Call of Duty Zombies,
+                  a mod and map for Garry&apos;s Mod, etc. 
+                </p>
+
+                <h2 className={sourceCodeProBold.className + " text-xl mt-10"}>Video Game Servers</h2>
+                <p className={sourceCodePro.className + " mt-4 text-sm"}>
+                  Created, configured, owned, and administrated various video game servers at a very young age. This mostly involved
+                  lots of research, beginner networking concepts, editing JSON files, and writing simple custom scripts.
+                  One of my servers turned a profit in donations.
                 </p>
               </>,
               className: timelineChildrenStyles,
@@ -123,6 +159,6 @@ const HomePage: NextPage = () => {
       </div>
     </div>
   );
-}
+};
 
 export default HomePage;
