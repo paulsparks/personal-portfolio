@@ -2,6 +2,7 @@ import { AppLayout } from "@/components/AppLayout";
 import type { AppProps } from "next/app";
 import "../styles/global.css";
 import { ConfigProvider } from "antd";
+import Head from "next/head";
 
 
 
@@ -15,6 +16,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         }
       }}
     >
+      <Head><title>Paul Sparks</title></Head>
       <AppLayout>
         <Component {...pageProps} />
       </AppLayout>

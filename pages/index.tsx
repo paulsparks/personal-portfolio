@@ -55,7 +55,7 @@ const HomePage: NextPage = () => {
     {
       key: "1",
       label: "Image 1",
-      children: <Image className={itemStyles + " mb-10"}  width={1061} height={402} alt="keyboard image" src={keyboard} />,
+      children: <Image className={itemStyles}  width={1061} height={402} alt="keyboard image" src={keyboard} />,
     },
   ];
 
