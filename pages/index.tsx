@@ -72,7 +72,7 @@ const HomePage: NextPage = () => {
         </div>
         <Image className="rounded-full sm:ml-24 h-[209px] w-[209px] max-sm:w-[140px] max-sm:h-[140px] max-md:w-[170px] max-md:h-[170px] outline outline-[#bc6c25] shadow-lg shadow-[#bc6c25]" width={836 / 4} height={836 / 4} alt="headshot image" src={headshot} />
       </div>
-      <div className={sourceCodePro.className + " mt-10 text-[#bc6c25] shadow-2xl p-16 shadow-[#dda15e]"}>
+      <div className={sourceCodePro.className + " mt-10 text-[#bc6c25] shadow-2xl px-4 py-16 sm:p-16 shadow-[#dda15e]"}>
         <Timeline
           items={[
             {
