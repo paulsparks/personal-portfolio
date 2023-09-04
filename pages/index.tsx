@@ -140,7 +140,7 @@ const HomePage: NextPage = () => {
       <div
         className={
           sourceCodePro.className +
-          " mt-10 text-[#bc6c25] shadow-2xl p-16 shadow-[#dda15e]"
+          " mt-10 text-[#bc6c25] shadow-2xl px-4 py-16 sm:p-16 shadow-[#dda15e]"
         }
       >
         <Timeline
@@ -254,6 +254,41 @@ const HomePage: NextPage = () => {
                     hashes to the admin logins. I wrote a report about how the
                     vulnerability works and how to fix it, then had my IT
                     teacher email it to the relevant departments at my school.
+                  </p>
+                </>
+              ),
+              className: timelineChildrenStyles,
+            },
+            {
+              children: (
+                <>
+                  <h1
+                    className={
+                      sourceCodePro.className +
+                      " text-[#283618] md:text-3xl mb-10"
+                    }
+                  >
+                    June 2022 | 18 Years Old
+                  </h1>
+                  <h2
+                    className={
+                      sourceCodeProBold.className + " text-lg md:text-xl"
+                    }
+                  >
+                    GE Software Engineering Internship Web App Overhaul
+                  </h2>
+                  <p
+                    className={
+                      sourceCodePro.className + " mt-4 text-xs sm:text-sm mb-10"
+                    }
+                  >
+                    During the summer after my Junior year in highschool, I did
+                    a Software Engineering internship with General Electric
+                    Corporate. This was arranged with the help of INTERalliance
+                    of Greater Cincinnati. The fine details of the work I did
+                    are confidential, but the general idea is that I overhauled
+                    a web application that functioned as an internal tool for GE
+                    employees.
                   </p>
                 </>
               ),
