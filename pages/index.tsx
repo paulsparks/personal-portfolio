@@ -97,7 +97,7 @@ const HomePage: NextPage = () => {
       children: (
         <Image
           preview={{ toolbarRender: () => null, movable: false }}
-          className={itemStyles + " mb-10"}
+          className={itemStyles}
           alt="keyboard image"
           src={keyboard}
         />
@@ -236,7 +236,7 @@ const HomePage: NextPage = () => {
                       sourceCodeProBold.className + " text-lg md:text-xl mt-10"
                     }
                   >
-                    High School Website Vulnerability Report
+                    Website Vulnerability Report
                   </h2>
                   <p
                     className={
@@ -244,16 +244,14 @@ const HomePage: NextPage = () => {
                     }
                   >
                     Around the same time that I created LHS Live Chat, I had an
-                    interest in cyber security and penetration testing. I
-                    decided to go to my High School&apos;s website and attempt
-                    to find a vulnerability. After some time, I discovered a SQL
-                    injection vulnerability on an admin login page. I wrote a
-                    Python script to execute a timing-based blind SQL injection,
-                    which eventually uncovered the contents of all of their
-                    database tables. In this database, there were the password
-                    hashes to the admin logins. I wrote a report about how the
-                    vulnerability works and how to fix it, then had my IT
-                    teacher email it to the relevant departments at my school.
+                    interest in cyber security and penetration testing. After
+                    practicing on CTF websites, I discovered a SQL injection
+                    vulnerability on a real company's login page. This
+                    vulnerability allowed for an attacker to execute a
+                    timing-based attack by writing a script that injects
+                    cumulative SQL queries. I wrote a report about how the
+                    vulnerability works and how to fix it, then emailed the
+                    report to the company so they could get it resolved.
                   </p>
                 </>
               ),
@@ -282,7 +280,7 @@ const HomePage: NextPage = () => {
                       sourceCodePro.className + " mt-4 text-xs sm:text-sm mb-10"
                     }
                   >
-                    During the summer after my Junior year in highschool, I did
+                    During the summer after my Junior year in highs chool, I did
                     a Software Engineering internship with General Electric
                     Corporate. This was arranged with the help of INTERalliance
                     of Greater Cincinnati. The fine details of the work I did
