@@ -246,7 +246,7 @@ const HomePage: NextPage = () => {
                     Around the same time that I created LHS Live Chat, I had an
                     interest in cyber security and penetration testing. After
                     practicing on CTF websites, I discovered a SQL injection
-                    vulnerability on a real company's login page. This
+                    vulnerability on a real company&apos;s login page. This
                     vulnerability allowed for an attacker to execute a
                     timing-based attack by writing a script that injects
                     cumulative SQL queries. I wrote a report about how the
