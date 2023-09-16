@@ -26,3 +26,6 @@ body {
 .ant-timeline-item-head {
   border-color: #283618 !important;
 }
+th.ant-descriptions-item {
+  padding-bottom: 0 !important;
+}

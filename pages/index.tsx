@@ -21,7 +21,7 @@ const sourceCodeProBold = Source_Code_Pro({
 const HomePage: NextPage = () => {
   const timelineChildrenStyles = "!text-[#bc6c25] font-bold !text-2xl";
 
-  const itemStyles = "rounded-md shadow-md shadow-[#bc6c25]";
+  const itemStyles = "rounded-md shadow-md shadow-[#bc6b2562]";
 
   const resourceMap: CollapseProps["items"] = [
     {
@@ -246,7 +246,7 @@ const HomePage: NextPage = () => {
                     Around the same time that I created LHS Live Chat, I had an
                     interest in cyber security and penetration testing. After
                     practicing on CTF websites, I discovered a SQL injection
-                    vulnerability on a real company&apos;s login page. This
+                    vulnerability on a real company's login page. This
                     vulnerability allowed for an attacker to execute a
                     timing-based attack by writing a script that injects
                     cumulative SQL queries. I wrote a report about how the
