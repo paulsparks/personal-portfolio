@@ -26,7 +26,7 @@ const HomePage: NextPage = () => {
   const resourceMap: CollapseProps["items"] = [
     {
       key: "1",
-      label: "Image 1",
+      label: "Interactive Map Page",
       children: (
         <Image
           preview={{ toolbarRender: () => null, movable: false }}
@@ -38,7 +38,7 @@ const HomePage: NextPage = () => {
     },
     {
       key: "2",
-      label: "Image 2",
+      label: "Seats Data Page",
       children: (
         <Image
           preview={{ toolbarRender: () => null, movable: false }}
@@ -50,7 +50,7 @@ const HomePage: NextPage = () => {
     },
     {
       key: "3",
-      label: "Image 3",
+      label: "Point of Interest Data Entry Form",
       children: (
         <Image
           preview={{ toolbarRender: () => null, movable: false }}
@@ -66,7 +66,7 @@ const HomePage: NextPage = () => {
   const lhsLiveChat: CollapseProps["items"] = [
     {
       key: "1",
-      label: "Image 1",
+      label: "Chat Room Page",
       children: (
         <Image
           preview={{ toolbarRender: () => null, movable: false }}
@@ -78,7 +78,7 @@ const HomePage: NextPage = () => {
     },
     {
       key: "2",
-      label: "Image 2",
+      label: "Welcome Page",
       children: (
         <Image
           preview={{ toolbarRender: () => null, movable: false }}
@@ -93,7 +93,7 @@ const HomePage: NextPage = () => {
   const keyboardDropdown: CollapseProps["items"] = [
     {
       key: "1",
-      label: "Image 1",
+      label: "The Keyboard",
       children: (
         <Image
           preview={{ toolbarRender: () => null, movable: false }}
