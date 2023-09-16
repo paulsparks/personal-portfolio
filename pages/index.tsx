@@ -280,7 +280,7 @@ const HomePage: NextPage = () => {
                       sourceCodePro.className + " mt-4 text-xs sm:text-sm mb-10"
                     }
                   >
-                    During the summer after my Junior year in highs chool, I did
+                    During the summer after my Junior year in high school, I did
                     a Software Engineering internship with General Electric
                     Corporate. This was arranged with the help of INTERalliance
                     of Greater Cincinnati. The fine details of the work I did
