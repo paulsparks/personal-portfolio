@@ -134,7 +134,9 @@ const HomePage: NextPage = () => {
             <br />
             <br />
             <span className="text-xs sm:text-sm md:text-lg italic">
-              Sophomore at the University of Cincinnati
+              University of Cincinnati
+              <br />
+              Sophomore
             </span>
           </h2>
         </div>

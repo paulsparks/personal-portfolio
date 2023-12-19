@@ -15,7 +15,8 @@ const Contact: NextPage = () => {
   const itemStyles =
     sourceCodePro.className + " text-[#bc6c25] text-2xl sm:text-4xl";
   const secondaryItemStyles =
-    sourceCodePro.className + " text-[#283618] text-xs sm:text-lg pr-4";
+    sourceCodePro.className +
+    " text-[#283618] text-xs sm:text-lg p-4 pl-0 pt-0";
 
   const items: DescriptionsProps["items"] = [
     {
@@ -77,20 +78,22 @@ const Contact: NextPage = () => {
   ];
 
   return (
-    <div className="p-4 !pt-0 sm:p-8">
+    <div className="min-md:p-4 !pt-0 md:p-8">
       <h1
         className={
           sourceCodePro.className +
-          " text-[#bc6c25] text-5xl sm:text-7xl md:text-8xl pb-10"
+          " text-[#bc6c25] text-4xl sm:text-6xl md:text-7xl lg:text-8xl md:pb-10 mx-auto text-center"
         }
       >
-        Contact
-        <br />
-        <ArrowDownOutlined />
-        &nbsp;&nbsp;&nbsp;Me
-        <br />
+        Contact Me
       </h1>
-      <Descriptions colon={false} layout="vertical" column={2} items={items} />
+      <Descriptions
+        className="mt-10 text-[#bc6c25] shadow-2xl px-4 pt-6 sm:p-16 shadow-[#dda15e]"
+        colon={false}
+        layout="vertical"
+        column={2}
+        items={items}
+      />
     </div>
   );
 };
