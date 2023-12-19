@@ -154,7 +154,7 @@ const HomePage: NextPage = () => {
                       " text-[#283618] md:text-3xl mb-10"
                     }
                   >
-                    August 2023 | 19 Years Old
+                    August 2023
                   </h1>
                   <h2
                     className={
@@ -203,7 +203,7 @@ const HomePage: NextPage = () => {
                       " text-[#283618] md:text-3xl mb-10"
                     }
                   >
-                    March 2023 | 18 Years Old
+                    March 2023
                   </h1>
                   <h2
                     className={
@@ -266,7 +266,7 @@ const HomePage: NextPage = () => {
                       " text-[#283618] md:text-3xl mb-10"
                     }
                   >
-                    June 2022 | 18 Years Old
+                    June 2022
                   </h1>
                   <h2
                     className={
@@ -301,7 +301,7 @@ const HomePage: NextPage = () => {
                       " text-[#283618] md:text-3xl mb-10"
                     }
                   >
-                    February 2022 | 17 Years Old
+                    February 2022
                   </h1>
                   <h2
                     className={
@@ -337,7 +337,7 @@ const HomePage: NextPage = () => {
                       " text-[#283618] md:text-3xl mb-10"
                     }
                   >
-                    December 2021 | 17 Years Old
+                    December 2021
                   </h1>
                   <h2
                     className={
@@ -372,7 +372,7 @@ const HomePage: NextPage = () => {
                       " text-[#283618] md:text-3xl mb-10"
                     }
                   >
-                    Before 2021 | 16 or Less Years Old
+                    Before 2021
                   </h1>
                   <h2
                     className={
